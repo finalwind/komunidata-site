@@ -15,10 +15,9 @@ STATIC_PATHS = ['static']
 MARKUP = ('md', 'ipynb')
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
-JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math', 'i18n_subsites']
+PLUGINS = ['render_math']
 
 
 
