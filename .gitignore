@@ -102,3 +102,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# pelican themes and plugins
+pelican-themes/*
+!pelican-themes/pelican-bootstrap3/
+
+pelican-plugins/*
+!pelican-plugins/render_math/
+!pelican-plugins/i18n_subsites/
+!pelican-plugins/pelican-ipynb/

@@ -10,6 +10,17 @@ PATH = 'content'
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
 ARTICLE_URL = '{date:%Y}/{slug}.html'
+STATIC_PATHS = ['static']
+
+MARKUP = ('md', 'ipynb')
+THEME = 'pelican-themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+
+PLUGIN_PATHS = ['/path/to/git/pelican-plugins']
+PLUGINS = ['ipynb.markup']
+
+
+
 
 TIMEZONE = 'Asia/Jakarta'
 
