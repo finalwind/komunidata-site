@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>komunidata</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2019-02-11T14:05:00+07:00</updated><entry><title>My first sample post</title><link href="/blog/my-first-sample-post.html" rel="alternate"></link><published>2019-02-11T14:05:00+07:00</published><updated>2019-02-11T14:05:00+07:00</updated><author><name>Windalfin Culmen</name></author><id>tag:None,2019-02-11:/blog/my-first-sample-post.html</id><summary type="html">&lt;p&gt;Hello world&lt;/p&gt;</summary><content type="html">&lt;p&gt;Hello world&lt;/p&gt;
+&lt;p&gt;Here is some cute Sakuragi
+[image]{static}/images/sakuragi.jpg&lt;/p&gt;</content></entry></feed>
