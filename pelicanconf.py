@@ -17,7 +17,7 @@ THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math']
+
 
 
 
