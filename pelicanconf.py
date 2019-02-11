@@ -8,13 +8,14 @@ SITEURL = ''
 
 PATH = 'content'
 ARTICLE_PATHS = ['blog']
-ARTICLE_SAVE_AS = '{date:%Y}/{slug}.html'
-ARTICLE_URL = '{date:%Y}/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
+ARTICLE_URL = 'blog/{slug}.html'
 STATIC_PATHS = ['static']
 
 MARKUP = ('md', 'ipynb')
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
 PLUGINS = ['render_math', 'i18n_subsites', 'pelican-ipynb']
