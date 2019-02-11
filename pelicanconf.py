@@ -12,12 +12,23 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 ARTICLE_URL = 'blog/{slug}.html'
 STATIC_PATHS = ['static']
 
+MARKUP = ('md', 'ipynb')
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
+
+JINJA_ENVIRONMENT = {
+    'extensions': ['jinja2.ext.i18n'],
+}
+
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['i18n_subsites', ]
+
+
+
 TIMEZONE = 'Asia/Jakarta'
 
-DEFAULT_LANG = 'English'
+DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -31,7 +42,7 @@ LINKS = (('treeclouds', 'http://treeclouds.com/'),)
 
 # Social widget
 SOCIAL = (('Email', 'mailto:windalfinc@gmail.com', 'envelope'),
-          ('Twitter', 'https://twitter.com/windalfin'),)
+          ('Twitter', 'https://twitter.com/finalwind'),)
 
 DEFAULT_PAGINATION = 10
 
