@@ -18,7 +18,7 @@ BOOTSTRAP_THEME = 'flatly'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
 PLUGIN_PATHS = ['pelican-plugins']
-PLUGINS = ['render_math', 'i18n_subsites', 'pelican-ipynb']
+PLUGINS = ['render_math', 'i18n_subsites']
 
 
 
