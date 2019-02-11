@@ -12,14 +12,8 @@ ARTICLE_SAVE_AS = 'blog/{slug}.html'
 ARTICLE_URL = 'blog/{slug}.html'
 STATIC_PATHS = ['static']
 
-MARKUP = ('md', 'ipynb')
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
-
-PLUGIN_PATHS = ['pelican-plugins']
-
-
-
 
 TIMEZONE = 'Asia/Jakarta'
 
@@ -33,14 +27,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('treeclouds', 'http://treeclouds.com/'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Email', 'mailto:windalfinc@gmail.com', 'envelope'),
+          ('Twitter', 'https://twitter.com/windalfin'),)
 
 DEFAULT_PAGINATION = 10
 
