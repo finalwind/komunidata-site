@@ -1,5 +1,2 @@
 pelican
 markdown
-jupyter
-ipython
-nbconvert
