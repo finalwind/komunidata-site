@@ -17,7 +17,7 @@ THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
 PLUGIN_PATHS = ['/path/to/git/pelican-plugins']
-PLUGINS = ['ipynb.markup']
+PLUGINS = ['pelican-ipynb.markup']
 
 
 
