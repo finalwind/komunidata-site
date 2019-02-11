@@ -16,9 +16,8 @@ MARKUP = ('md', 'ipynb')
 THEME = 'pelican-themes/pelican-bootstrap3'
 BOOTSTRAP_THEME = 'flatly'
 
-PLUGIN_PATHS = ['/path/to/git/pelican-plugins']
-PLUGINS = ['pelican-ipynb.markup']
-
+PLUGIN_PATHS = ['pelican-plugins']
+PLUGINS = ['render_math', 'i18n_subsites', 'pelican-ipynb']
 
 
 
