@@ -7,4 +7,4 @@ Summary: Hello world
 Hello world
 
 Here is some cute Sakuragi
-[image]{static}/images/sakuragi.jpg
+[image]({static}/images/sakuragi.jpg)
